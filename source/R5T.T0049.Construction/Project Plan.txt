@@ -1,0 +1,3 @@
+R5T.T0049.Construction - Construction project for Namespace and Type strongly-typed string types..
+
+GOALS:
