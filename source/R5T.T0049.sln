@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0049", "R5T.T0049\R5T.T0049.csproj", "{41434E5D-6185-48B9-B275-4A3F419307E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0049", "R5T.T0049\R5T.T0049.csproj", "{41434E5D-6185-48B9-B275-4A3F419307E6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{358F0FCE-1351-41AA-A4DA-5A6CA7758D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Magyar", "..\..\R5T.Magyar\source\R5T.Magyar\R5T.Magyar.csproj", "{0C256A4F-F43B-4D63-92E0-F0D4078C0FAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Magyar", "..\..\R5T.Magyar\source\R5T.Magyar\R5T.Magyar.csproj", "{0C256A4F-F43B-4D63-92E0-F0D4078C0FAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Stagira", "..\..\R5T.Stagira\source\R5T.Stagira\R5T.Stagira.csproj", "{213D472E-9DAD-47A7-8D74-B23484FD8376}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{41434E5D-6185-48B9-B275-4A3F419307E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -46,8 +45,27 @@ Global
 		{0C256A4F-F43B-4D63-92E0-F0D4078C0FAD}.Release|x64.Build.0 = Release|Any CPU
 		{0C256A4F-F43B-4D63-92E0-F0D4078C0FAD}.Release|x86.ActiveCfg = Release|Any CPU
 		{0C256A4F-F43B-4D63-92E0-F0D4078C0FAD}.Release|x86.Build.0 = Release|Any CPU
+		{213D472E-9DAD-47A7-8D74-B23484FD8376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213D472E-9DAD-47A7-8D74-B23484FD8376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213D472E-9DAD-47A7-8D74-B23484FD8376}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{213D472E-9DAD-47A7-8D74-B23484FD8376}.Debug|x64.Build.0 = Debug|Any CPU
+		{213D472E-9DAD-47A7-8D74-B23484FD8376}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{213D472E-9DAD-47A7-8D74-B23484FD8376}.Debug|x86.Build.0 = Debug|Any CPU
+		{213D472E-9DAD-47A7-8D74-B23484FD8376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213D472E-9DAD-47A7-8D74-B23484FD8376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213D472E-9DAD-47A7-8D74-B23484FD8376}.Release|x64.ActiveCfg = Release|Any CPU
+		{213D472E-9DAD-47A7-8D74-B23484FD8376}.Release|x64.Build.0 = Release|Any CPU
+		{213D472E-9DAD-47A7-8D74-B23484FD8376}.Release|x86.ActiveCfg = Release|Any CPU
+		{213D472E-9DAD-47A7-8D74-B23484FD8376}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0C256A4F-F43B-4D63-92E0-F0D4078C0FAD} = {358F0FCE-1351-41AA-A4DA-5A6CA7758D9C}
+		{213D472E-9DAD-47A7-8D74-B23484FD8376} = {358F0FCE-1351-41AA-A4DA-5A6CA7758D9C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E308FCB-6DD9-42F9-9335-52D519E0C775}
 	EndGlobalSection
 EndGlobal
